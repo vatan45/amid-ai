@@ -47,8 +47,8 @@ export default function HeroSection() {
           className="flex items-center justify-center mb-6"
         >
           <div className="flex items-center">
-            <div className="h-4 w-4 mr-2 bg-red-600 rounded-full"></div>
-            <span className="text-white text-2xl font-bold tracking-wider">AMID</span>
+            
+            <span className="text-white text-2xl font-bold tracking-wider">CU TBI</span>
             <span className="text-gray-400 text-xs ml-2 mt-1">
               artificial<br />intelligence
             </span>
