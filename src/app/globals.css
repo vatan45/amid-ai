@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 95%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 0 77% 43%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 5.9% 10%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 240 20% 4%;
+    --foreground: 0 0% 95%;
+    --card: 240 20% 4%;
+    --card-foreground: 0 0% 95%;
+    --popover: 240 20% 4%;
+    --popover-foreground: 0 0% 95%;
+    --primary: 0 0% 95%;
+    --primary-foreground: 240 5.9% 10%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 95%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 0 77% 43%;
+    --accent-foreground: 0 0% 95%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 95%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 240 4.9% 83.9%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground overflow-x-hidden;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+/* AMID custom styles */
+@layer components {
+  .container-amid {
+    @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-red {
+    @apply bg-red-600 hover:bg-red-700 text-white font-medium px-6 py-3 rounded-md transition-colors duration-200;
+  }
+
+  /* Glassmorphism effect for buttons */
+  .btn-glass {
+    @apply backdrop-blur-md bg-white/10 border border-white/20 shadow-lg rounded-md px-6 py-3 text-white transition-all;
+  }
+
+  .btn-glass:hover {
+    @apply bg-white/20 border-white/30;
+  }
+
+  /* Full screen section */
+  .fullscreen-section {
+    @apply min-h-screen flex flex-col justify-center;
+    scroll-snap-align: start;
+  }
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
+}
+
+/* Red gradient background */
+.red-gradient-bg {
+  background: linear-gradient(135deg, rgba(180, 0, 0, 0.3) 0%, rgba(20, 0, 0, 0.1) 100%);
+}
+
+/* Enable smooth scrolling and snap scrolling for full page transitions */
+html.snap-scroll {
+  scroll-behavior: smooth;
+  height: 100%;
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;
+}
+
+html.snap-scroll body {
+  height: 100%;
+}
+
+html.snap-scroll section {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+/* Dark overlay for hero section */
+.dark-overlay {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
