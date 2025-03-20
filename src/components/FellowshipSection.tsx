@@ -57,7 +57,7 @@ export default function FellowshipSection() {
               </p>
               <p className="text-gray-400 mb-6">
                 Fellows will also be granted desk space and community membership at our brand new "lab" on Market Street
-                in San Francisco. Front row access to our founder cohorts, weekly events and speaker series, investor pitch days,
+                in Chandigarh University. Front row access to our founder cohorts, weekly events and speaker series, investor pitch days,
                 corporate perks, with the rest of Chandigarh University's "cerebral valley" at your fingertips.
               </p>
 
