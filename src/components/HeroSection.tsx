@@ -62,7 +62,7 @@ export default function HeroSection() {
           animate="visible"
           transition={{ delay: 0.2, duration: 0.7 }}
         >
-          AI Lab & Founders<br />Fellowship
+         Coforge AI Lab & Founders<br />space
         </motion.h1>
 
         <motion.p
