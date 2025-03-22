@@ -68,15 +68,15 @@ export default function FaqsSection() {
     },
     {
       question: "How can I attend AI events hosted at the space?",
-      answer: "AMID hosts regular events that are open to the public. Follow our social media or join our newsletter to stay informed about upcoming events. Some events may require registration in advance."
+      answer: "CU TBI hosts regular events that are open to the public. Follow our social media or join our newsletter to stay informed about upcoming events. Some events may require registration in advance."
     },
     {
-      question: "Can I host my event at the AMID AI Lab?",
+      question: "Can I host my event at the CU TBI AI Lab?",
       answer: "Yes, our space is available for AI-focused events and gatherings. Please reach out to us with details about your event, and our team will get back to you regarding availability and pricing."
     },
     {
       question: "How can I apply as a Founder Fellow?",
-      answer: "Applications for the AMID AI Founder Fellowship are available through our website. Click the 'Apply Here' button in the Fellowship section to submit your application."
+      answer: "Applications for the CUTBI AI Founder Fellowship are available through our website. Click the 'Apply Here' button in the Fellowship section to submit your application."
     },
     {
       question: "What is the selection process for Founders?",
@@ -91,8 +91,8 @@ export default function FaqsSection() {
       answer: "We run Fellowship cohorts quarterly. If you miss the current application deadline, you can apply for the next cohort."
     },
     {
-      question: "Does AMID take equity in our startup?",
-      answer: "No, AMID does not take equity in exchange for participation in the Fellowship program. Our goal is to support the AI ecosystem and foster innovation."
+      question: "Does CU TBI take equity in our startup?",
+      answer: "No, CU TBI does not take equity in exchange for participation in the Fellowship program. Our goal is to support the AI ecosystem and foster innovation."
     },
     {
       question: "How can my startup participate in an interview or panel discussion?",
@@ -100,13 +100,13 @@ export default function FaqsSection() {
     },
     {
       question: "I am interested in becoming a sponsor / advertiser",
-      answer: "We offer various sponsorship and advertising opportunities. Please contact our partnerships team for more information on how to get involved with AMID."
+      answer: "We offer various sponsorship and advertising opportunities. Please contact our partnerships team for more information on how to get involved with CU TBI."
     }
   ];
 
   return (
     <section id="faqs" className="py-16 bg-black fullscreen-section">
-      <div className="container-amid">
+      <div className="container-CU TBI">
         <motion.div
           initial="hidden"
           whileInView="visible"

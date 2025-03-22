@@ -48,7 +48,7 @@ export default function HeroSection() {
         >
           <div className="flex items-center">
             
-            <span className="text-white text-2xl font-bold tracking-wider">CU TBI</span>
+            <span className="text-white text-2xl font-bold tracking-wider">TBI</span>
             <span className="text-gray-400 text-xs ml-2 mt-1">
               artificial<br />intelligence
             </span>
