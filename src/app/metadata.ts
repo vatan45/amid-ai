@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "CU TBI AI Lab & Founders Fellowship",
     description: "A dedicated space for building and collaboration, in the heart of Chandigarh University",
-    url: "https://www.amid.ai",
+    url: "https://cutbi.coddunity.com",
     siteName: "CU TBI",
     locale: "en_US",
     type: "website",

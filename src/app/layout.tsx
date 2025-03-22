@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "AMID AI Lab & Founders Fellowship",
+  title: "CU TBI AI Lab & Founders Fellowship",
   description: "A dedicated space for building and collaboration, in the heart of San Francisco",
   icons: {
     icon: "/favicon.ico",
