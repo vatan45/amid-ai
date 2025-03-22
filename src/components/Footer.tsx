@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <AnimatedSection delay={0.1} direction="up">
             <div>
-              <h3 className="text-lg font-semibold mb-4">About AMID</h3>
+              <h3 className="text-lg font-semibold mb-4">About Founders space</h3>
               <p className="text-gray-400 text-sm">
-                CU TBI is a trusted media and events company, focused entirely on artificial intelligence;
+                Founder Space is focused entirely on artificial intelligence;
                 on the innovators, researchers, investors, and technologies, as well as the downstream
                 impacts on careers, industries, society, and politics. We are techno-optimists, and believe
                 in checks and balances through information and curiosity.
@@ -26,7 +26,7 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4">News & Media</h3>
               <p className="text-gray-400 text-sm">
-                Over 40k professionals are getting a jumpstart on the era of AI through our podcasts and newsletters.
+                Over 40k students are getting a jumpstart on the era of AI through our podcasts and newsletters.
                 Founders, investors, academics get in touch for a chance to be interviewed or featured.
               </p>
             </div>
@@ -37,7 +37,7 @@ export default function Footer() {
               <h3 className="text-lg font-semibold mb-4">Community & Events</h3>
               <p className="text-gray-400 text-sm">
                 The best work happens when we collaborate. We foster a community of AI companies and
-                professionals with digital and in-person events in SF and NYC for those looking to
+                professionals with digital and in-person events in Technology buissness incubator D8 Block for those looking to
                 learn, network, and grow their AI expertise.
               </p>
             </div>
