@@ -48,25 +48,26 @@ export default function HeroSection() {
         >
           <div className="flex items-center">
             
-            <span className="text-white text-2xl font-bold tracking-wider">TBI</span>
-            <span className="text-gray-400 text-xs ml-2 mt-1">
+            <span className="text-white text-2xl font-bold tracking-wider">TBI | </span>
+            <span className="text-gray-200 text-xs ml-2 mt-1">
               artificial<br />intelligence
             </span>
           </div>
         </motion.div>
 
         <motion.h1
-          className="text-5xl md:text-7xl font-bold mt-8 mb-6 text-balance"
+          className="text-5xl md:text-7xl font-bold mt-8 mb-10 text-balance"
           variants={animations.fadeInUp}
           initial="hidden"
           animate="visible"
           transition={{ delay: 0.2, duration: 0.7 }}
         >
-         Coforge AI Lab & Founders<br />space
+         Coforge AI Lab &
+         <br /> Founders space
         </motion.h1>
 
         <motion.p
-          className="text-gray-300 max-w-2xl mx-auto mb-12 text-xl"
+          className="text-gray-300 max-w-2xl mx-auto mb-18 text-xl"
           variants={animations.fadeInUp}
           initial="hidden"
           animate="visible"

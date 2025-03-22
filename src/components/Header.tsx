@@ -60,7 +60,7 @@ export default function Header() {
         <nav className="hidden md:flex items-center space-x-8">
           {[
             { href: "/#hero", label: "Home" },
-            { href: "/#programs", label: "Programs" },
+            { href: "/#programs", label: "Projects" },
             { href: "/#fellowship", label: "Fellowship" },
             { href: "/#space", label: "The Space" },
             { href: "/#faqs", label: "FAQs" },
